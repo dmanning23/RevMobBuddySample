@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/startSession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/startSession" />
+            <Button
+                android:id="@+id/showFullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showFullscreen" />
+            <Button
+                android:id="@+id/loadFullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadFullscreen"
+                android:onClick="loadFullscreen" />
+            <Button
+                android:id="@+id/showLoadedFullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showLoadedFullscreen" />
+            <Button
+                android:id="@+id/loadVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadVideo" />
+            <Button
+                android:id="@+id/showVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showVideo" />
+            <Button
+                android:id="@+id/loadRewardedVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadRewardedVideo" />
+            <Button
+                android:id="@+id/showRewardedVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showRewardedVideo" />
+            <Button
+                android:id="@+id/releaseBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/releaseBanner" />
+            <Button
+                android:id="@+id/loadBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preLoadBanner" />
+            <Button
+                android:id="@+id/showBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showBanner" />
+            <Button
+                android:id="@+id/hideBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hideBanner" />
+            <Button
+                android:id="@+id/releaseCustomBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/releaseCustomBanner" />
+            <Button
+                android:id="@+id/loadCustomBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/preLoadCustomBanner" />
+            <Button
+                android:id="@+id/showCustomBannerPosition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showCustomBannerPosition"
+                android:text="@string/showCustomBannerPosition" />
+            <Button
+                android:id="@+id/hideCustomBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hideCustomBanner" />
+            <Button
+                android:id="@+id/openLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/openLink" />
+            <Button
+                android:id="@+id/loadedLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadedLink" />
+            <Button
+                android:id="@+id/openLoadedLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/openLoadedLink" />
+            <Button
+                android:id="@+id/printEnvironmentInformation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/printEnvironmentInformation" />
+            <Button
+                android:id="@+id/setUserAgeRangeMin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/setUserAgeRangeMin" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/showCustomBannerPosition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+    <LinearLayout
+        android:id="@+id/bannerCustomSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+    <RelativeLayout
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom|center_horizontal" />
+</RelativeLayout>

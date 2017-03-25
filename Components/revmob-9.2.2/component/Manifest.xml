@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<component format="1" id="revmob">
+  <name>RevMob Mobile Ads</name>
+  <publisher>RevMob</publisher>
+  <publisher-url>https://revmobmobileadnetwork.com</publisher-url>
+  <docs-url>https://revmobmobileadnetwork.com/sdk/xamarin</docs-url>
+  <version>9.2.2</version>
+  <summary>RevMob is the best solution for developers to monetize their mobile apps.</summary>
+  <samples>
+    <sample id="sampleApp">
+      <name>Android Sample</name>
+      <summary>Android Sample</summary>
+    </sample>
+    <sample id="sampleApp">
+      <name>iOS Unified Sample</name>
+      <summary>iOS Unified Sample</summary>
+    </sample>
+  </samples>
+</component>

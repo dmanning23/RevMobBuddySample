@@ -1,4 +1,4 @@
-MenuBuddySample
+RevMobBuddySample
 ===============
 
-quick sample game showing how to use the menubuddy game state management system.
+Sample MonoGame project showing how to use the RevMobBuddy nuget package to display ad banner, intersitial ads, and rewarded video.

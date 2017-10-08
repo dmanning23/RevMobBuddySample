@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:id="@+id/buttons"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/startSession"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/startSession" />
+            <Button
+                android:id="@+id/loadFullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadFullscreen"
+                android:onClick="loadFullscreen" />
+            <Button
+                android:id="@+id/showFullscreen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showFullscreen" />
+            <Button
+                android:id="@+id/loadRewardedVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadRewardedVideo" />
+            <Button
+                android:id="@+id/showRewardedVideo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showRewardedVideo" />
+            <Button
+                android:id="@+id/loadBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="loadBanner"
+                android:text="@string/loadBanner" />
+            <Button
+                android:id="@+id/showBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/showBanner" />
+            <Button
+                android:id="@+id/hideBanner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hideBanner" />
+            <Button
+                android:id="@+id/loadedLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/loadedLink" />
+            <Button
+                android:id="@+id/openLink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/openLink" />
+            <Button
+                android:id="@+id/cacheNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cacheNative"
+                android:text="@string/cacheNative" />
+            <Button
+                android:id="@+id/showNative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showNative"
+                android:text="@string/showNative" />
+            <Button
+                android:id="@+id/cacheNativeCustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="cacheNativeCustom"
+                android:text="@string/cacheNativeCustom" />
+            <Button
+                android:id="@+id/showNativeCustom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showNativeCustom"
+                android:text="@string/showNativeCustom" />
+            <LinearLayout
+                android:id="@+id/native_ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="nativeAdContainer"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+                <ImageView
+                    android:id="@+id/native_ad_icon"
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp">
+                    <TextView
+                        android:id="@+id/native_ad_title"
+                        android:lines="1"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/native_ad_body"
+                        android:lines="2"
+                        android:ellipsize="end"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="false"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" />
+</RelativeLayout>

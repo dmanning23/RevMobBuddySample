@@ -107,27 +107,27 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="FontBuddyLib.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.8\lib\Xamarin.iOS10\FontBuddyLib.iOS.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.1.0.15\lib\Xamarin.iOS10\FontBuddyLib.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GameTimer.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GameTimer.1.0.1\lib\Xamarin.iOS10\GameTimer.iOS.dll</HintPath>
+      <HintPath>..\packages\GameTimer.1.0.2\lib\Xamarin.iOS10\GameTimer.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HadoukInput.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HadoukInput.1.0.3\lib\Xamarin.iOS10\HadoukInput.iOS.dll</HintPath>
+      <HintPath>..\packages\HadoukInput.1.0.4\lib\Xamarin.iOS10\HadoukInput.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="InputHelper.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\InputHelper.1.0.17\lib\Xamarin.iOS10\InputHelper.iOS.dll</HintPath>
+      <HintPath>..\packages\InputHelper.1.0.20\lib\Xamarin.iOS10\InputHelper.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MatrixExtensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MatrixExtensions.1.0.1\lib\Xamarin.iOS10\MatrixExtensions.iOS.dll</HintPath>
+      <HintPath>..\packages\MatrixExtensions.1.0.2\lib\Xamarin.iOS10\MatrixExtensions.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MenuBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.55\lib\Xamarin.iOS10\MenuBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.1.0.79\lib\Xamarin.iOS10\MenuBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.5.1.1679, Culture=neutral, processorArchitecture=MSIL">
@@ -135,26 +135,27 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="MouseBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MouseBuddy.1.0.7\lib\Xamarin.iOS10\MouseBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\MouseBuddy.1.0.8\lib\Xamarin.iOS10\MouseBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="PrimitiveBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PrimitiveBuddy.1.0.0\lib\Xamarin.iOS10\PrimitiveBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\PrimitiveBuddy.1.0.3\lib\Xamarin.iOS10\PrimitiveBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="RandomExtensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RandomExtensions.dmanning23.1.0.2\lib\Xamarin.iOS10\RandomExtensions.iOS.dll</HintPath>
+      <HintPath>..\packages\RandomExtensions.dmanning23.1.0.3\lib\Xamarin.iOS10\RandomExtensions.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="ResolutionBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ResolutionBuddy.1.0.3\lib\Xamarin.iOS10\ResolutionBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\ResolutionBuddy.1.0.8\lib\Xamarin.iOS10\ResolutionBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="revmob.ios.xamarin">
+    <Reference Include="revmob.ios.xamarin, Version=1.0.6065.37724, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Components\revmob-9.2.2\lib\ios-unified\revmob.ios.xamarin.dll</HintPath>
     </Reference>
     <Reference Include="RevMobBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RevMobBuddy.1.0.0\lib\Xamarin.iOS10\RevMobBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\RevMobBuddy.1.0.6\lib\Xamarin.iOS10\RevMobBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="StateMachineBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -169,12 +170,12 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Vector2Extensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vector2Extensions.1.0.3\lib\Xamarin.iOS10\Vector2Extensions.iOS.dll</HintPath>
+      <HintPath>..\packages\Vector2Extensions.1.0.8\lib\Xamarin.iOS10\Vector2Extensions.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Xamarin.iOS" />
     <Reference Include="XmlBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\XmlBuddy.1.0.13\lib\Xamarin.iOS10\XmlBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\XmlBuddy.1.0.14\lib\Xamarin.iOS10\XmlBuddy.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
@@ -183,6 +184,49 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\bin\iOS\AButton.xnb" />
+    <None Include="Content\bin\iOS\AlphaGradient.xnb" />
+    <None Include="Content\bin\iOS\BackButton.xnb" />
+    <None Include="Content\bin\iOS\Cancel.xnb" />
+    <None Include="Content\bin\iOS\Checked.xnb" />
+    <None Include="Content\bin\iOS\Collapse.xnb" />
+    <None Include="Content\bin\iOS\Expand.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack10.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack14.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack24.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack36.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack48.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack48Spanish.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack72.xnb" />
+    <None Include="Content\bin\iOS\Fonts\ArialBlack96.xnb" />
+    <None Include="Content\bin\iOS\gradient.xnb" />
+    <None Include="Content\bin\iOS\hourglass.xnb" />
+    <None Include="Content\bin\iOS\MenuMove.xnb" />
+    <None Include="Content\bin\iOS\MenuSelect.xnb" />
+    <None Include="Content\bin\iOS\Potion3a.xnb" />
+    <None Include="Content\bin\iOS\Unchecked.xnb" />
+    <None Include="Content\obj\iOS\.mgcontent" />
+    <None Include="Content\obj\iOS\AButton.mgcontent" />
+    <None Include="Content\obj\iOS\AlphaGradient.mgcontent" />
+    <None Include="Content\obj\iOS\BackButton.mgcontent" />
+    <None Include="Content\obj\iOS\Cancel.mgcontent" />
+    <None Include="Content\obj\iOS\Checked.mgcontent" />
+    <None Include="Content\obj\iOS\Collapse.mgcontent" />
+    <None Include="Content\obj\iOS\Expand.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack10.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack14.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack24.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack36.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack48.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack48Spanish.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack72.mgcontent" />
+    <None Include="Content\obj\iOS\Fonts\ArialBlack96.mgcontent" />
+    <None Include="Content\obj\iOS\gradient.mgcontent" />
+    <None Include="Content\obj\iOS\hourglass.mgcontent" />
+    <None Include="Content\obj\iOS\MenuMove.mgcontent" />
+    <None Include="Content\obj\iOS\MenuSelect.mgcontent" />
+    <None Include="Content\obj\iOS\Potion3a.mgcontent" />
+    <None Include="Content\obj\iOS\Unchecked.mgcontent" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
     <None Include="packages.config" />
@@ -190,6 +234,15 @@
   <ItemGroup>
     <BundleResource Include="Default.png" />
     <BundleResource Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\XmlBuddy.Content.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="revmob">
+      <Visible>False</Visible>
+      <Version>9.2.2</Version>
+    </XamarinComponentReference>
   </ItemGroup>
   <Import Project="..\RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

@@ -1,14 +1,14 @@
+using AdMobMonoGame;
+using AdMobMonoGame.Android;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;
 using Android.Views;
 using Android.Widget;
-using RevMobBuddy;
-using RevMobBuddy.Android;
 
 namespace RevMobBuddyExample.Android
 {
-	[Activity(Label = "Game1"
+	[Activity(Label = "AdsExample"
 		, MainLauncher = true
 		, Icon = "@drawable/icon"
 		, Theme = "@style/Theme.Splash"
@@ -18,25 +18,14 @@ namespace RevMobBuddyExample.Android
 		, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize)]
 	public class Activity1 : Microsoft.Xna.Framework.AndroidGameActivity
 	{
-		public FrameLayout _mainLayout;
-
 		protected override void OnCreate(Bundle bundle)
 		{
 			base.OnCreate(bundle);
 			var g = new Game1();
+			SetContentView((View)g.Services.GetService(typeof(View)));
 
-			//get the game view
-			var gameView = g.Services.GetService<View>();
-
-			//create a frame layout
-			_mainLayout = new FrameLayout(this);
-
-			//add the game to the framelayout
-			_mainLayout.AddView(gameView);
-
-			SetContentView(_mainLayout);
-
-			g.Services.AddService<IAdManager>(new AndroidRevMobManager(g, _mainLayout));
+			g.Services.AddService<IAdManager>(new AdMobAdapter(this, "ca-app-pub-5144527466254609~7481979674",
+				"ca-app-pub-3940256099942544/1033173712", "ca-app-pub-3940256099942544/5224354917"));
 
 			g.Run();
 		}

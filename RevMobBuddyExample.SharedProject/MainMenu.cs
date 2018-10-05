@@ -1,5 +1,5 @@
+using AdMobMonoGame;
 using MenuBuddy;
-using RevMobBuddy;
 using System;
 
 namespace RevMobBuddyExample
@@ -17,16 +17,15 @@ namespace RevMobBuddyExample
 			base.LoadContent();
 
 			//add bannerad button
-			var banner = new MenuEntry("Banner Ad");
+			var banner = new MenuEntry("Banner Ad", Content);
 			AddMenuEntry(banner);
 			banner.OnClick += (obj, e) =>
 			{
 				ScreenManager.AddScreen(new BannerAdPage());
-				//LoadingScreen.Load(ScreenManager, true, null, new BannerAdPage());
 			};
 
 			//add interstitial button
-			var interstitial = new MenuEntry("Interstitial Ad");
+			var interstitial = new MenuEntry("Interstitial Ad", Content);
 			AddMenuEntry(interstitial);
 			interstitial.OnClick += (obj, e) =>
 			{
@@ -35,11 +34,11 @@ namespace RevMobBuddyExample
 			};
 
 			//add rewarded video button
-			var video = new MenuEntry("Video Ad");
+			var video = new MenuEntry("Video Ad", Content);
 			AddMenuEntry(video);
 
 			//add rewarded video button
-			var rewardedVideo = new MenuEntry("Rewarded Video Ad");
+			var rewardedVideo = new MenuEntry("Rewarded Video Ad", Content);
 			AddMenuEntry(rewardedVideo);
 			rewardedVideo.OnClick += (obj, e) =>
 			{

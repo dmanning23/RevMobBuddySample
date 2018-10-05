@@ -1,5 +1,5 @@
+using AdMobMonoGame;
 using MenuBuddy;
-using RevMobBuddy;
 
 namespace RevMobBuddyExample
 {

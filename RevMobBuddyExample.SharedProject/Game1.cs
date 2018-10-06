@@ -1,4 +1,4 @@
-using AdMobMonoGame;
+using AdMobBuddy;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 

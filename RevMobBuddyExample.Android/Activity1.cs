@@ -1,5 +1,5 @@
-using AdMobMonoGame;
-using AdMobMonoGame.Android;
+using AdMobBuddy;
+using AdMobBuddy.Android;
 using Android.App;
 using Android.Content.PM;
 using Android.OS;

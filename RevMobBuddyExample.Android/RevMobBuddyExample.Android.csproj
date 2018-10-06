@@ -34,12 +34,13 @@
     <DefineConstants>DEBUG;TRACE;ANDROID</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
     <AndroidLinkMode>None</AndroidLinkMode>
     <AndroidSupportedAbis>armeabi-v7a;x86;x86_64</AndroidSupportedAbis>
     <AotAssemblies>false</AotAssemblies>
     <EnableLLVM>false</EnableLLVM>
     <BundleAssemblies>false</BundleAssemblies>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -52,6 +53,9 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdMobBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdMobBuddy.1.0.16\lib\MonoAndroid10\AdMobBuddy.Android.dll</HintPath>
+    </Reference>
     <Reference Include="FilenameBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FilenameBuddy.1.0.12\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
     </Reference>
@@ -71,7 +75,7 @@
       <HintPath>..\packages\MatrixExtensions.1.0.3\lib\MonoAndroid10\MatrixExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.155\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.1.0.161\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
@@ -98,7 +102,7 @@
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Xml" />
     <Reference Include="TouchScreenBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TouchScreenBuddy.1.0.11\lib\MonoAndroid10\TouchScreenBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\TouchScreenBuddy.1.0.12\lib\MonoAndroid10\TouchScreenBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Vector2Extensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Vector2Extensions.1.0.13\lib\MonoAndroid10\Vector2Extensions.Android.dll</HintPath>
@@ -169,12 +173,6 @@
     <None Include="Properties\AndroidManifest.xml">
       <SubType>Designer</SubType>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\AdMobMonoGame\AdMobMonoGame.Android\AdMobMonoGame.Android.csproj">
-      <Project>{20e0368a-bf3f-44d3-b494-537002845005}</Project>
-      <Name>AdMobMonoGame.Android</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="..\RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

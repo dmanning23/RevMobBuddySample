@@ -1,4 +1,4 @@
-using AdMobMonoGame;
+using AdMobBuddy;
 using MenuBuddy;
 using System;
 
@@ -6,7 +6,7 @@ namespace RevMobBuddyExample
 {
 	public class MainMenu : MenuScreen
 	{
-		public MainMenu() : base("Main Menu")
+		public MainMenu() : base("AdMobBuddy Example")
 		{
 			CoverOtherScreens = true;
 			CoveredByOtherScreens = true;
@@ -15,14 +15,6 @@ namespace RevMobBuddyExample
 		public override void LoadContent()
 		{
 			base.LoadContent();
-
-			//add bannerad button
-			var banner = new MenuEntry("Banner Ad", Content);
-			AddMenuEntry(banner);
-			banner.OnClick += (obj, e) =>
-			{
-				ScreenManager.AddScreen(new BannerAdPage());
-			};
 
 			//add interstitial button
 			var interstitial = new MenuEntry("Interstitial Ad", Content);
@@ -34,15 +26,12 @@ namespace RevMobBuddyExample
 			};
 
 			//add rewarded video button
-			var video = new MenuEntry("Video Ad", Content);
-			AddMenuEntry(video);
-
-			//add rewarded video button
 			var rewardedVideo = new MenuEntry("Rewarded Video Ad", Content);
 			AddMenuEntry(rewardedVideo);
 			rewardedVideo.OnClick += (obj, e) =>
 			{
 				var ads = ScreenManager.Game.Services.GetService<IAdManager>();
+				ads.OnVideoReward -= VideoReward;
 				ads.OnVideoReward += VideoReward;
 				ads.DisplayRewardedVideoAd();
 			};

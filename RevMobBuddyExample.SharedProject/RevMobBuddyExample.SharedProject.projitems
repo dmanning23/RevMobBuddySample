@@ -9,7 +9,6 @@
     <Import_RootNamespace>RevMobBuddyExample.SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)BannerAdPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)MainMenu.cs" />
   </ItemGroup>

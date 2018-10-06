@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props')" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -11,6 +12,8 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>Game2</AssemblyName>
     <MonoGamePlatform>iOS</MonoGamePlatform>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -102,14 +105,20 @@
     <CodesignKey>iPhone Distribution</CodesignKey>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdMobBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AdMobBuddy.1.0.16\lib\Xamarin.iOS10\AdMobBuddy.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="FilenameBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FilenameBuddy.1.0.12\lib\Xamarin.iOS10\FilenameBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.1.0.30\lib\Xamarin.iOS10\FontBuddyLib.iOS.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.1.0.32\lib\Xamarin.iOS10\FontBuddyLib.iOS.dll</HintPath>
     </Reference>
     <Reference Include="GameTimer.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\GameTimer.1.0.8\lib\Xamarin.iOS10\GameTimer.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.MobileAds, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Google.iOS.MobileAds.7.31.0.2\lib\Xamarin.iOS10\Google.MobileAds.dll</HintPath>
     </Reference>
     <Reference Include="HadoukInput.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\HadoukInput.1.0.12\lib\Xamarin.iOS10\HadoukInput.iOS.dll</HintPath>
@@ -121,7 +130,7 @@
       <HintPath>..\packages\MatrixExtensions.1.0.3\lib\Xamarin.iOS10\MatrixExtensions.iOS.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.1.0.154\lib\Xamarin.iOS10\MenuBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.1.0.161\lib\Xamarin.iOS10\MenuBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="MonoGame.Framework, Version=3.6.0.1625, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MonoGame.Framework.iOS.3.6.0.1625\lib\XamariniOS\MonoGame.Framework.dll</HintPath>
@@ -138,12 +147,6 @@
     <Reference Include="ResolutionBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\ResolutionBuddy.1.0.17\lib\Xamarin.iOS10\ResolutionBuddy.iOS.dll</HintPath>
     </Reference>
-    <Reference Include="revmob.ios.xamarin, Version=1.0.6065.37724, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RevMobBuddy.1.0.8\lib\Xamarin.iOS10\revmob.ios.xamarin.dll</HintPath>
-    </Reference>
-    <Reference Include="RevMobBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RevMobBuddy.1.0.8\lib\Xamarin.iOS10\RevMobBuddy.iOS.dll</HintPath>
-    </Reference>
     <Reference Include="StateMachineBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StateMachineBuddy.1.0.12\lib\Xamarin.iOS10\StateMachineBuddy.iOS.dll</HintPath>
     </Reference>
@@ -151,7 +154,7 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="TouchScreenBuddy.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\TouchScreenBuddy.1.0.11\lib\Xamarin.iOS10\TouchScreenBuddy.iOS.dll</HintPath>
+      <HintPath>..\packages\TouchScreenBuddy.1.0.12\lib\Xamarin.iOS10\TouchScreenBuddy.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Vector2Extensions.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Vector2Extensions.1.0.13\lib\Xamarin.iOS10\Vector2Extensions.iOS.dll</HintPath>
@@ -183,4 +186,14 @@
   <Import Project="..\RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.props'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.31.0.2\build\Xamarin.Google.iOS.MobileAds.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Google.iOS.MobileAds.7.31.0.2\build\Xamarin.Google.iOS.MobileAds.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.4.11\build\Xamarin.Build.Download.targets')" />
+  <Import Project="..\packages\Xamarin.Google.iOS.MobileAds.7.31.0.2\build\Xamarin.Google.iOS.MobileAds.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.MobileAds.7.31.0.2\build\Xamarin.Google.iOS.MobileAds.targets')" />
 </Project>

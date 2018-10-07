@@ -25,6 +25,16 @@ namespace RevMobBuddyExample
 #endif
 		}
 
+		protected override void InitStyles()
+		{
+			//TODO: change the fonts here
+			StyleSheet.LargeFontResource = @"Fonts\ArialBlack96";
+			StyleSheet.MediumFontResource = @"Fonts\ArialBlack48";
+			StyleSheet.SmallFontResource = @"Fonts\ArialBlack24";
+
+			base.InitStyles();
+		}
+
 		public override IScreen[] GetMainMenuScreenStack()
 		{
 			return new IScreen[] { new MainMenu() };

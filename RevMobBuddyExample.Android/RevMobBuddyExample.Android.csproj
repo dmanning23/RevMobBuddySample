@@ -54,7 +54,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AdMobBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AdMobBuddy.1.0.16\lib\MonoAndroid10\AdMobBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\AdMobBuddy.1.0.17\lib\MonoAndroid10\AdMobBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="FilenameBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FilenameBuddy.1.0.12\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>

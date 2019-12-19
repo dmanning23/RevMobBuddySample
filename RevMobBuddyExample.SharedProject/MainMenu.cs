@@ -1,6 +1,7 @@
 using AdMobBuddy;
 using MenuBuddy;
 using System;
+using System.Threading.Tasks;
 
 namespace RevMobBuddyExample
 {
@@ -12,9 +13,9 @@ namespace RevMobBuddyExample
 			CoveredByOtherScreens = true;
 		}
 
-		public override void LoadContent()
+		public override async Task LoadContent()
 		{
-			base.LoadContent();
+			await base.LoadContent();
 
 			//add interstitial button
 			var interstitial = new MenuEntry("Interstitial Ad", Content);
@@ -37,11 +38,11 @@ namespace RevMobBuddyExample
 			};
 		}
 
-		protected void VideoReward(object obj, EventArgs e)
+		protected async void VideoReward(object obj, RewardedVideoEventArgs e)
 		{
 			var ads = ScreenManager.Game.Services.GetService<IAdManager>();
 			ads.OnVideoReward -= VideoReward;
-			ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
+			//await ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
 		}
 	}
 }

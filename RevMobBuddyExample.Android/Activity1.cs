@@ -24,8 +24,9 @@ namespace RevMobBuddyExample.Android
 			var g = new Game1();
 			SetContentView((View)g.Services.GetService(typeof(View)));
 
-			g.Services.AddService<IAdManager>(new AdMobAdapter(this, "ca-app-pub-5144527466254609~7481979674",
-				"ca-app-pub-3940256099942544/1033173712", "ca-app-pub-3940256099942544/5224354917"));
+			g.Services.AddService<IAdManager>(new AdMobAdapter(this, "ca-app-pub-8228485892439970~1803261097",
+				"ca-app-pub-3940256099942544/1033173712", "ca-app-pub-3940256099942544/5224354917",
+				"34A3D7C62F372FD18218F63F37D12398"));
 
 			g.Run();
 		}

@@ -7,7 +7,7 @@
 		<string>GameThumbnail.png</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>9.0</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
@@ -20,5 +20,10 @@
 	<string>RevMobBuddyExample.iOS</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-8228485892439970~9406418946</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+		<integer>2</integer>
+	</array>
 </dict>
 </plist>

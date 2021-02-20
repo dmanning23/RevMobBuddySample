@@ -7,7 +7,7 @@ using Android.Views;
 
 namespace RevMobBuddyExample.Android
 {
-	[Activity(Label = "AdsExample"
+	[Activity(Label = "AdMob Example"
 		, MainLauncher = true
 		, Icon = "@drawable/icon"
 		, Theme = "@style/Theme.Splash"

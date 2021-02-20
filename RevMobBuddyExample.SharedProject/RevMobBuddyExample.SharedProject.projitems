@@ -6,7 +6,7 @@
     <SharedGUID>3519c5cc-78c3-4697-abed-36ed967e9de0</SharedGUID>
   </PropertyGroup>
   <PropertyGroup Label="Configuration">
-    <Import_RootNamespace>RevMobBuddyExample.SharedProject</Import_RootNamespace>
+    <Import_RootNamespace>AdMobBuddyExample.SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Game1.cs" />

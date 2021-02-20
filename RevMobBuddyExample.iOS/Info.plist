@@ -15,9 +15,9 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>CFBundleIdentifier</key>
-	<string>com.dannobotgames.RevMobBuddyExample.iOS</string>
+	<string>com.dannobotgames.AdMobBuddyExample.iOS</string>
 	<key>CFBundleDisplayName</key>
-	<string>RevMobBuddyExample.iOS</string>
+	<string>AdMobBuddyExample.iOS</string>
 	<key>GADApplicationIdentifier</key>
 	<string>ca-app-pub-8228485892439970~9406418946</string>
 	<key>UIDeviceFamily</key>

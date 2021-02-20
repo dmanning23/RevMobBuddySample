@@ -5,5 +5,10 @@
 	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="RevMobBuddyExample.Android" android:icon="@drawable/Icon">
 		<activity android:name="com.revmob.FullscreenActivity" android:theme="@android:style/Theme.Translucent" android:configChanges="keyboardHidden|orientation"></activity>
+
+		<meta-data
+          android:name="com.google.android.gms.ads.APPLICATION_ID"
+          android:value="ca-app-pub-8228485892439970~1803261097"/>
+
 	</application>
 </manifest>

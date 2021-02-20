@@ -1,12 +1,8 @@
-using AdMobBuddy;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 
 namespace RevMobBuddyExample
 {
-	/// <summary>
-	/// This is the main type for your game.
-	/// </summary>
 	public class Game1 : TouchGame
 	{
 		public Game1()
@@ -27,7 +23,6 @@ namespace RevMobBuddyExample
 
 		protected override void InitStyles()
 		{
-			//TODO: change the fonts here
 			StyleSheet.LargeFontResource = @"Fonts\ArialBlack96";
 			StyleSheet.MediumFontResource = @"Fonts\ArialBlack48";
 			StyleSheet.SmallFontResource = @"Fonts\ArialBlack24";

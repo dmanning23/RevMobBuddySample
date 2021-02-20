@@ -1,11 +1,11 @@
 using AdMobBuddy;
 using MenuBuddy;
-using System;
+using Microsoft.Xna.Framework;
 using System.Threading.Tasks;
 
 namespace RevMobBuddyExample
 {
-	public class MainMenu : MenuScreen
+	public class MainMenu : MenuStackScreen
 	{
 		public MainMenu() : base("AdMobBuddy Example")
 		{
@@ -38,11 +38,21 @@ namespace RevMobBuddyExample
 			};
 		}
 
-		protected async void VideoReward(object obj, RewardedVideoEventArgs e)
+		protected void VideoReward(object obj, RewardedVideoEventArgs e)
 		{
 			var ads = ScreenManager.Game.Services.GetService<IAdManager>();
 			ads.OnVideoReward -= VideoReward;
 			//await ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
+		}
+
+		public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
+		{
+			base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
+		}
+
+		public override void Draw(GameTime gameTime)
+		{
+			base.Draw(gameTime);
 		}
 	}
 }

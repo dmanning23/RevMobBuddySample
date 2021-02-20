@@ -189,7 +189,7 @@
     <BundleResource Include="Default.png" />
     <BundleResource Include="GameThumbnail.png" />
   </ItemGroup>
-  <Import Project="..\RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems" Label="Shared" />
+  <Import Project="..\AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

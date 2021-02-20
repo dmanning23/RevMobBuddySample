@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AdMobBuddyExample.SharedProject", "RevMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.shproj", "{3519C5CC-78C3-4697-ABED-36ED967E9DE0}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AdMobBuddyExample.SharedProject", "AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.shproj", "{3519C5CC-78C3-4697-ABED-36ED967E9DE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobBuddyExample.Android", "RevMobBuddyExample.Android\AdMobBuddyExample.Android.csproj", "{831AFDCF-048A-4A60-9165-FB9CF9824982}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobBuddyExample.Android", "AdMobBuddyExample.Android\AdMobBuddyExample.Android.csproj", "{831AFDCF-048A-4A60-9165-FB9CF9824982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobBuddyExample.iOS", "RevMobBuddyExample.iOS\AdMobBuddyExample.iOS.csproj", "{0A91ABF7-A034-427E-9571-8F8F0AE2BF09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdMobBuddyExample.iOS", "AdMobBuddyExample.iOS\AdMobBuddyExample.iOS.csproj", "{0A91ABF7-A034-427E-9571-8F8F0AE2BF09}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems*{0a91abf7-a034-427e-9571-8f8f0ae2bf09}*SharedItemsImports = 4
-		RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems*{3519c5cc-78c3-4697-abed-36ed967e9de0}*SharedItemsImports = 13
-		RevMobBuddyExample.SharedProject\RevMobBuddyExample.SharedProject.projitems*{831afdcf-048a-4a60-9165-fb9cf9824982}*SharedItemsImports = 4
+		AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.projitems*{0a91abf7-a034-427e-9571-8f8f0ae2bf09}*SharedItemsImports = 4
+		AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.projitems*{3519c5cc-78c3-4697-abed-36ed967e9de0}*SharedItemsImports = 13
+		AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.projitems*{831afdcf-048a-4a60-9165-fb9cf9824982}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

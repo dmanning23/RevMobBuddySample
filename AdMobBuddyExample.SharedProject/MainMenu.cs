@@ -17,6 +17,15 @@ namespace RevMobBuddyExample
 		{
 			await base.LoadContent();
 
+			//add banner button
+			var banner = new MenuEntry("Banner Ad", Content);
+			AddMenuEntry(banner);
+			banner.OnClick += (obj, e) =>
+			{
+				var ads = ScreenManager.Game.Services.GetService<IAdManager>();
+				ads.DisplayBannerAd();
+			};
+
 			//add interstitial button
 			var interstitial = new MenuEntry("Interstitial Ad", Content);
 			AddMenuEntry(interstitial);
@@ -38,11 +47,12 @@ namespace RevMobBuddyExample
 			};
 		}
 
-		protected void VideoReward(object obj, RewardedVideoEventArgs e)
+		protected async void VideoReward(object obj, RewardedVideoEventArgs e)
 		{
 			var ads = ScreenManager.Game.Services.GetService<IAdManager>();
 			ads.OnVideoReward -= VideoReward;
-			//await ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
+			
+			await ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
 		}
 
 		public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)

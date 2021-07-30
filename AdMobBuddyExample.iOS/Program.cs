@@ -14,9 +14,9 @@ namespace RevMobBuddyExample.iOS
 		{
 			game = new Game1();
 			game.Services.AddService<IAdManager>(new AdMobAdapter(game.Services.GetService<UIViewController>(),
-				//"ca-app-pub-5144527466254609~8969023993",
-				"ca-app-pub-3940256099942544/4411468910", 
-				"ca-app-pub-3940256099942544/1712485313"));
+				"ca-app-pub-3940256099942544/2934735716", //banner ad id
+				"ca-app-pub-3940256099942544/4411468910", //interstitial ad id
+				"ca-app-pub-3940256099942544/1712485313")); //rewarded video ad id
 			game.Run();
 		}
 

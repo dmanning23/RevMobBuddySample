@@ -14,7 +14,7 @@ namespace AdMobBuddyExample.Android
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "1.0.0.0")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.1.0.11")]
 	public partial class Resource
 	{
 		
@@ -25,6 +25,13 @@ namespace AdMobBuddyExample.Android
 		
 		public static void UpdateIdValues()
 		{
+			global::AdMobBuddy.Android.Resource.Animation.fragment_fast_out_extra_slow_in = global::AdMobBuddyExample.Android.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_close_enter = global::AdMobBuddyExample.Android.Resource.Animator.fragment_close_enter;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_close_exit = global::AdMobBuddyExample.Android.Resource.Animator.fragment_close_exit;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_fade_enter = global::AdMobBuddyExample.Android.Resource.Animator.fragment_fade_enter;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_fade_exit = global::AdMobBuddyExample.Android.Resource.Animator.fragment_fade_exit;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_open_enter = global::AdMobBuddyExample.Android.Resource.Animator.fragment_open_enter;
+			global::AdMobBuddy.Android.Resource.Animator.fragment_open_exit = global::AdMobBuddyExample.Android.Resource.Animator.fragment_open_exit;
 			global::AdMobBuddy.Android.Resource.Attribute.adSize = global::AdMobBuddyExample.Android.Resource.Attribute.adSize;
 			global::AdMobBuddy.Android.Resource.Attribute.adSizes = global::AdMobBuddyExample.Android.Resource.Attribute.adSizes;
 			global::AdMobBuddy.Android.Resource.Attribute.adUnitId = global::AdMobBuddyExample.Android.Resource.Attribute.adUnitId;
@@ -49,6 +56,12 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Attribute.layout_keyline = global::AdMobBuddyExample.Android.Resource.Attribute.layout_keyline;
 			global::AdMobBuddy.Android.Resource.Attribute.statusBarBackground = global::AdMobBuddyExample.Android.Resource.Attribute.statusBarBackground;
 			global::AdMobBuddy.Android.Resource.Attribute.ttcIndex = global::AdMobBuddyExample.Android.Resource.Attribute.ttcIndex;
+			global::AdMobBuddy.Android.Resource.Boolean.enable_system_alarm_service_default = global::AdMobBuddyExample.Android.Resource.Boolean.enable_system_alarm_service_default;
+			global::AdMobBuddy.Android.Resource.Boolean.enable_system_foreground_service_default = global::AdMobBuddyExample.Android.Resource.Boolean.enable_system_foreground_service_default;
+			global::AdMobBuddy.Android.Resource.Boolean.enable_system_job_service_default = global::AdMobBuddyExample.Android.Resource.Boolean.enable_system_job_service_default;
+			global::AdMobBuddy.Android.Resource.Boolean.workmanager_test_configuration = global::AdMobBuddyExample.Android.Resource.Boolean.workmanager_test_configuration;
+			global::AdMobBuddy.Android.Resource.Color.androidx_core_ripple_material_light = global::AdMobBuddyExample.Android.Resource.Color.androidx_core_ripple_material_light;
+			global::AdMobBuddy.Android.Resource.Color.androidx_core_secondary_text_default_material_light = global::AdMobBuddyExample.Android.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::AdMobBuddy.Android.Resource.Color.notification_action_color_filter = global::AdMobBuddyExample.Android.Resource.Color.notification_action_color_filter;
 			global::AdMobBuddy.Android.Resource.Color.notification_icon_bg_color = global::AdMobBuddyExample.Android.Resource.Color.notification_icon_bg_color;
 			global::AdMobBuddy.Android.Resource.Color.notification_material_background_media_default_color = global::AdMobBuddyExample.Android.Resource.Color.notification_material_background_media_default_color;
@@ -88,6 +101,39 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Drawable.notification_template_icon_low_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_template_icon_low_bg;
 			global::AdMobBuddy.Android.Resource.Drawable.notification_tile_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_tile_bg;
 			global::AdMobBuddy.Android.Resource.Drawable.notify_panel_notification_icon_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_action_clickable_span = global::AdMobBuddyExample.Android.Resource.Id.accessibility_action_clickable_span;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_0 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_0;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_1 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_1;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_10 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_10;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_11 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_11;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_12 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_12;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_13 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_13;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_14 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_14;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_15 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_15;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_16 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_16;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_17 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_17;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_18 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_18;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_19 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_19;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_2 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_2;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_20 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_20;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_21 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_21;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_22 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_22;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_23 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_23;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_24 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_24;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_25 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_25;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_26 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_26;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_27 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_27;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_28 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_28;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_29 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_29;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_3 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_3;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_30 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_30;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_31 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_31;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_4 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_4;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_5 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_5;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_6 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_6;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_7 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_7;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_8 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_8;
+			global::AdMobBuddy.Android.Resource.Id.accessibility_custom_action_9 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_9;
 			global::AdMobBuddy.Android.Resource.Id.action0 = global::AdMobBuddyExample.Android.Resource.Id.action0;
 			global::AdMobBuddy.Android.Resource.Id.actions = global::AdMobBuddyExample.Android.Resource.Id.actions;
 			global::AdMobBuddy.Android.Resource.Id.action_container = global::AdMobBuddyExample.Android.Resource.Id.action_container;
@@ -106,12 +152,14 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Id.chronometer = global::AdMobBuddyExample.Android.Resource.Id.chronometer;
 			global::AdMobBuddy.Android.Resource.Id.clip_horizontal = global::AdMobBuddyExample.Android.Resource.Id.clip_horizontal;
 			global::AdMobBuddy.Android.Resource.Id.clip_vertical = global::AdMobBuddyExample.Android.Resource.Id.clip_vertical;
+			global::AdMobBuddy.Android.Resource.Id.dialog_button = global::AdMobBuddyExample.Android.Resource.Id.dialog_button;
 			global::AdMobBuddy.Android.Resource.Id.end = global::AdMobBuddyExample.Android.Resource.Id.end;
 			global::AdMobBuddy.Android.Resource.Id.end_padder = global::AdMobBuddyExample.Android.Resource.Id.end_padder;
 			global::AdMobBuddy.Android.Resource.Id.fill = global::AdMobBuddyExample.Android.Resource.Id.fill;
 			global::AdMobBuddy.Android.Resource.Id.fill_horizontal = global::AdMobBuddyExample.Android.Resource.Id.fill_horizontal;
 			global::AdMobBuddy.Android.Resource.Id.fill_vertical = global::AdMobBuddyExample.Android.Resource.Id.fill_vertical;
 			global::AdMobBuddy.Android.Resource.Id.forever = global::AdMobBuddyExample.Android.Resource.Id.forever;
+			global::AdMobBuddy.Android.Resource.Id.fragment_container_view_tag = global::AdMobBuddyExample.Android.Resource.Id.fragment_container_view_tag;
 			global::AdMobBuddy.Android.Resource.Id.icon = global::AdMobBuddyExample.Android.Resource.Id.icon;
 			global::AdMobBuddy.Android.Resource.Id.icon_group = global::AdMobBuddyExample.Android.Resource.Id.icon_group;
 			global::AdMobBuddy.Android.Resource.Id.info = global::AdMobBuddyExample.Android.Resource.Id.info;
@@ -128,8 +176,14 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Id.right = global::AdMobBuddyExample.Android.Resource.Id.right;
 			global::AdMobBuddy.Android.Resource.Id.right_icon = global::AdMobBuddyExample.Android.Resource.Id.right_icon;
 			global::AdMobBuddy.Android.Resource.Id.right_side = global::AdMobBuddyExample.Android.Resource.Id.right_side;
+			global::AdMobBuddy.Android.Resource.Id.special_effects_controller_view_tag = global::AdMobBuddyExample.Android.Resource.Id.special_effects_controller_view_tag;
 			global::AdMobBuddy.Android.Resource.Id.start = global::AdMobBuddyExample.Android.Resource.Id.start;
 			global::AdMobBuddy.Android.Resource.Id.status_bar_latest_event_content = global::AdMobBuddyExample.Android.Resource.Id.status_bar_latest_event_content;
+			global::AdMobBuddy.Android.Resource.Id.tag_accessibility_actions = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_actions;
+			global::AdMobBuddy.Android.Resource.Id.tag_accessibility_clickable_spans = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_clickable_spans;
+			global::AdMobBuddy.Android.Resource.Id.tag_accessibility_heading = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_heading;
+			global::AdMobBuddy.Android.Resource.Id.tag_accessibility_pane_title = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_pane_title;
+			global::AdMobBuddy.Android.Resource.Id.tag_screen_reader_focusable = global::AdMobBuddyExample.Android.Resource.Id.tag_screen_reader_focusable;
 			global::AdMobBuddy.Android.Resource.Id.tag_transition_group = global::AdMobBuddyExample.Android.Resource.Id.tag_transition_group;
 			global::AdMobBuddy.Android.Resource.Id.tag_unhandled_key_event_manager = global::AdMobBuddyExample.Android.Resource.Id.tag_unhandled_key_event_manager;
 			global::AdMobBuddy.Android.Resource.Id.tag_unhandled_key_listeners = global::AdMobBuddyExample.Android.Resource.Id.tag_unhandled_key_listeners;
@@ -138,9 +192,14 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Id.time = global::AdMobBuddyExample.Android.Resource.Id.time;
 			global::AdMobBuddy.Android.Resource.Id.title = global::AdMobBuddyExample.Android.Resource.Id.title;
 			global::AdMobBuddy.Android.Resource.Id.top = global::AdMobBuddyExample.Android.Resource.Id.top;
+			global::AdMobBuddy.Android.Resource.Id.view_tree_lifecycle_owner = global::AdMobBuddyExample.Android.Resource.Id.view_tree_lifecycle_owner;
+			global::AdMobBuddy.Android.Resource.Id.view_tree_saved_state_registry_owner = global::AdMobBuddyExample.Android.Resource.Id.view_tree_saved_state_registry_owner;
+			global::AdMobBuddy.Android.Resource.Id.view_tree_view_model_store_owner = global::AdMobBuddyExample.Android.Resource.Id.view_tree_view_model_store_owner;
+			global::AdMobBuddy.Android.Resource.Id.visible_removing_fragment_view_tag = global::AdMobBuddyExample.Android.Resource.Id.visible_removing_fragment_view_tag;
 			global::AdMobBuddy.Android.Resource.Integer.cancel_button_image_alpha = global::AdMobBuddyExample.Android.Resource.Integer.cancel_button_image_alpha;
 			global::AdMobBuddy.Android.Resource.Integer.google_play_services_version = global::AdMobBuddyExample.Android.Resource.Integer.google_play_services_version;
 			global::AdMobBuddy.Android.Resource.Integer.status_bar_notification_info_maxnum = global::AdMobBuddyExample.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::AdMobBuddy.Android.Resource.Layout.custom_dialog = global::AdMobBuddyExample.Android.Resource.Layout.custom_dialog;
 			global::AdMobBuddy.Android.Resource.Layout.notification_action = global::AdMobBuddyExample.Android.Resource.Layout.notification_action;
 			global::AdMobBuddy.Android.Resource.Layout.notification_action_tombstone = global::AdMobBuddyExample.Android.Resource.Layout.notification_action_tombstone;
 			global::AdMobBuddy.Android.Resource.Layout.notification_media_action = global::AdMobBuddyExample.Android.Resource.Layout.notification_media_action;
@@ -211,6 +270,13 @@ namespace AdMobBuddyExample.Android
 			global::AdMobBuddy.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
 			global::AdMobBuddy.Android.Resource.Styleable.FontFamily_fontProviderPackage = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderPackage;
 			global::AdMobBuddy.Android.Resource.Styleable.FontFamily_fontProviderQuery = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::AdMobBuddy.Android.Resource.Styleable.Fragment = global::AdMobBuddyExample.Android.Resource.Styleable.Fragment;
+			global::AdMobBuddy.Android.Resource.Styleable.FragmentContainerView = global::AdMobBuddyExample.Android.Resource.Styleable.FragmentContainerView;
+			global::AdMobBuddy.Android.Resource.Styleable.FragmentContainerView_android_name = global::AdMobBuddyExample.Android.Resource.Styleable.FragmentContainerView_android_name;
+			global::AdMobBuddy.Android.Resource.Styleable.FragmentContainerView_android_tag = global::AdMobBuddyExample.Android.Resource.Styleable.FragmentContainerView_android_tag;
+			global::AdMobBuddy.Android.Resource.Styleable.Fragment_android_id = global::AdMobBuddyExample.Android.Resource.Styleable.Fragment_android_id;
+			global::AdMobBuddy.Android.Resource.Styleable.Fragment_android_name = global::AdMobBuddyExample.Android.Resource.Styleable.Fragment_android_name;
+			global::AdMobBuddy.Android.Resource.Styleable.Fragment_android_tag = global::AdMobBuddyExample.Android.Resource.Styleable.Fragment_android_tag;
 			global::AdMobBuddy.Android.Resource.Styleable.GradientColor = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor;
 			global::AdMobBuddy.Android.Resource.Styleable.GradientColorItem = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColorItem;
 			global::AdMobBuddy.Android.Resource.Styleable.GradientColorItem_android_color = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColorItem_android_color;
@@ -253,6 +319,197 @@ namespace AdMobBuddyExample.Android
 			global::TouchScreenBuddy.Android.Resource.String.Hello = global::AdMobBuddyExample.Android.Resource.String.Hello;
 			global::Vector2Extensions.Android.Resource.String.ApplicationName = global::AdMobBuddyExample.Android.Resource.String.ApplicationName;
 			global::Vector2Extensions.Android.Resource.String.Hello = global::AdMobBuddyExample.Android.Resource.String.Hello;
+			global::Xamarin.Essentials.Resource.Attribute.alpha = global::AdMobBuddyExample.Android.Resource.Attribute.alpha;
+			global::Xamarin.Essentials.Resource.Attribute.font = global::AdMobBuddyExample.Android.Resource.Attribute.font;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderCerts = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchStrategy = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderFetchTimeout = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderPackage = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Attribute.fontProviderQuery = global::AdMobBuddyExample.Android.Resource.Attribute.fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Attribute.fontStyle = global::AdMobBuddyExample.Android.Resource.Attribute.fontStyle;
+			global::Xamarin.Essentials.Resource.Attribute.fontVariationSettings = global::AdMobBuddyExample.Android.Resource.Attribute.fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Attribute.fontWeight = global::AdMobBuddyExample.Android.Resource.Attribute.fontWeight;
+			global::Xamarin.Essentials.Resource.Attribute.ttcIndex = global::AdMobBuddyExample.Android.Resource.Attribute.ttcIndex;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_ripple_material_light = global::AdMobBuddyExample.Android.Resource.Color.androidx_core_ripple_material_light;
+			global::Xamarin.Essentials.Resource.Color.androidx_core_secondary_text_default_material_light = global::AdMobBuddyExample.Android.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_bg_grey = global::AdMobBuddyExample.Android.Resource.Color.browser_actions_bg_grey;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_divider_color = global::AdMobBuddyExample.Android.Resource.Color.browser_actions_divider_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_text_color = global::AdMobBuddyExample.Android.Resource.Color.browser_actions_text_color;
+			global::Xamarin.Essentials.Resource.Color.browser_actions_title_color = global::AdMobBuddyExample.Android.Resource.Color.browser_actions_title_color;
+			global::Xamarin.Essentials.Resource.Color.notification_action_color_filter = global::AdMobBuddyExample.Android.Resource.Color.notification_action_color_filter;
+			global::Xamarin.Essentials.Resource.Color.notification_icon_bg_color = global::AdMobBuddyExample.Android.Resource.Color.notification_icon_bg_color;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_max_width = global::AdMobBuddyExample.Android.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.browser_actions_context_menu_min_padding = global::AdMobBuddyExample.Android.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_horizontal_material = global::AdMobBuddyExample.Android.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_inset_vertical_material = global::AdMobBuddyExample.Android.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_horizontal_material = global::AdMobBuddyExample.Android.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_button_padding_vertical_material = global::AdMobBuddyExample.Android.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_control_corner_material = global::AdMobBuddyExample.Android.Resource.Dimension.compat_control_corner_material;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_height = global::AdMobBuddyExample.Android.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Xamarin.Essentials.Resource.Dimension.compat_notification_large_icon_max_width = global::AdMobBuddyExample.Android.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_icon_size = global::AdMobBuddyExample.Android.Resource.Dimension.notification_action_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_action_text_size = global::AdMobBuddyExample.Android.Resource.Dimension.notification_action_text_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_big_circle_margin = global::AdMobBuddyExample.Android.Resource.Dimension.notification_big_circle_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_content_margin_start = global::AdMobBuddyExample.Android.Resource.Dimension.notification_content_margin_start;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_height = global::AdMobBuddyExample.Android.Resource.Dimension.notification_large_icon_height;
+			global::Xamarin.Essentials.Resource.Dimension.notification_large_icon_width = global::AdMobBuddyExample.Android.Resource.Dimension.notification_large_icon_width;
+			global::Xamarin.Essentials.Resource.Dimension.notification_main_column_padding_top = global::AdMobBuddyExample.Android.Resource.Dimension.notification_main_column_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_media_narrow_margin = global::AdMobBuddyExample.Android.Resource.Dimension.notification_media_narrow_margin;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_icon_size = global::AdMobBuddyExample.Android.Resource.Dimension.notification_right_icon_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_right_side_padding_top = global::AdMobBuddyExample.Android.Resource.Dimension.notification_right_side_padding_top;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_background_padding = global::AdMobBuddyExample.Android.Resource.Dimension.notification_small_icon_background_padding;
+			global::Xamarin.Essentials.Resource.Dimension.notification_small_icon_size_as_large = global::AdMobBuddyExample.Android.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Xamarin.Essentials.Resource.Dimension.notification_subtext_size = global::AdMobBuddyExample.Android.Resource.Dimension.notification_subtext_size;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad = global::AdMobBuddyExample.Android.Resource.Dimension.notification_top_pad;
+			global::Xamarin.Essentials.Resource.Dimension.notification_top_pad_large_text = global::AdMobBuddyExample.Android.Resource.Dimension.notification_top_pad_large_text;
+			global::Xamarin.Essentials.Resource.Drawable.notification_action_background = global::AdMobBuddyExample.Android.Resource.Drawable.notification_action_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg_low;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_normal = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg_low_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_low_pressed = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg_low_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg_normal;
+			global::Xamarin.Essentials.Resource.Drawable.notification_bg_normal_pressed = global::AdMobBuddyExample.Android.Resource.Drawable.notification_bg_normal_pressed;
+			global::Xamarin.Essentials.Resource.Drawable.notification_icon_background = global::AdMobBuddyExample.Android.Resource.Drawable.notification_icon_background;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_template_icon_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_template_icon_low_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_template_icon_low_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notification_tile_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notification_tile_bg;
+			global::Xamarin.Essentials.Resource.Drawable.notify_panel_notification_icon_bg = global::AdMobBuddyExample.Android.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Xamarin.Essentials.Resource.Id.accessibility_action_clickable_span = global::AdMobBuddyExample.Android.Resource.Id.accessibility_action_clickable_span;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_0 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_0;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_1 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_1;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_10 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_10;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_11 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_11;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_12 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_12;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_13 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_13;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_14 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_14;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_15 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_15;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_16 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_16;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_17 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_17;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_18 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_18;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_19 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_19;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_2 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_2;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_20 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_20;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_21 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_21;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_22 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_22;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_23 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_23;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_24 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_24;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_25 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_25;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_26 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_26;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_27 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_27;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_28 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_28;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_29 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_29;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_3 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_3;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_30 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_30;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_31 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_31;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_4 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_4;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_5 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_5;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_6 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_6;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_7 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_7;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_8 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_8;
+			global::Xamarin.Essentials.Resource.Id.accessibility_custom_action_9 = global::AdMobBuddyExample.Android.Resource.Id.accessibility_custom_action_9;
+			global::Xamarin.Essentials.Resource.Id.actions = global::AdMobBuddyExample.Android.Resource.Id.actions;
+			global::Xamarin.Essentials.Resource.Id.action_container = global::AdMobBuddyExample.Android.Resource.Id.action_container;
+			global::Xamarin.Essentials.Resource.Id.action_divider = global::AdMobBuddyExample.Android.Resource.Id.action_divider;
+			global::Xamarin.Essentials.Resource.Id.action_image = global::AdMobBuddyExample.Android.Resource.Id.action_image;
+			global::Xamarin.Essentials.Resource.Id.action_text = global::AdMobBuddyExample.Android.Resource.Id.action_text;
+			global::Xamarin.Essentials.Resource.Id.async = global::AdMobBuddyExample.Android.Resource.Id.async;
+			global::Xamarin.Essentials.Resource.Id.blocking = global::AdMobBuddyExample.Android.Resource.Id.blocking;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_header_text = global::AdMobBuddyExample.Android.Resource.Id.browser_actions_header_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_items = global::AdMobBuddyExample.Android.Resource.Id.browser_actions_menu_items;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_icon = global::AdMobBuddyExample.Android.Resource.Id.browser_actions_menu_item_icon;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_item_text = global::AdMobBuddyExample.Android.Resource.Id.browser_actions_menu_item_text;
+			global::Xamarin.Essentials.Resource.Id.browser_actions_menu_view = global::AdMobBuddyExample.Android.Resource.Id.browser_actions_menu_view;
+			global::Xamarin.Essentials.Resource.Id.chronometer = global::AdMobBuddyExample.Android.Resource.Id.chronometer;
+			global::Xamarin.Essentials.Resource.Id.dialog_button = global::AdMobBuddyExample.Android.Resource.Id.dialog_button;
+			global::Xamarin.Essentials.Resource.Id.forever = global::AdMobBuddyExample.Android.Resource.Id.forever;
+			global::Xamarin.Essentials.Resource.Id.icon = global::AdMobBuddyExample.Android.Resource.Id.icon;
+			global::Xamarin.Essentials.Resource.Id.icon_group = global::AdMobBuddyExample.Android.Resource.Id.icon_group;
+			global::Xamarin.Essentials.Resource.Id.info = global::AdMobBuddyExample.Android.Resource.Id.info;
+			global::Xamarin.Essentials.Resource.Id.italic = global::AdMobBuddyExample.Android.Resource.Id.italic;
+			global::Xamarin.Essentials.Resource.Id.line1 = global::AdMobBuddyExample.Android.Resource.Id.line1;
+			global::Xamarin.Essentials.Resource.Id.line3 = global::AdMobBuddyExample.Android.Resource.Id.line3;
+			global::Xamarin.Essentials.Resource.Id.normal = global::AdMobBuddyExample.Android.Resource.Id.normal;
+			global::Xamarin.Essentials.Resource.Id.notification_background = global::AdMobBuddyExample.Android.Resource.Id.notification_background;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column = global::AdMobBuddyExample.Android.Resource.Id.notification_main_column;
+			global::Xamarin.Essentials.Resource.Id.notification_main_column_container = global::AdMobBuddyExample.Android.Resource.Id.notification_main_column_container;
+			global::Xamarin.Essentials.Resource.Id.right_icon = global::AdMobBuddyExample.Android.Resource.Id.right_icon;
+			global::Xamarin.Essentials.Resource.Id.right_side = global::AdMobBuddyExample.Android.Resource.Id.right_side;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_actions = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_actions;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_clickable_spans = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_clickable_spans;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_heading = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_heading;
+			global::Xamarin.Essentials.Resource.Id.tag_accessibility_pane_title = global::AdMobBuddyExample.Android.Resource.Id.tag_accessibility_pane_title;
+			global::Xamarin.Essentials.Resource.Id.tag_screen_reader_focusable = global::AdMobBuddyExample.Android.Resource.Id.tag_screen_reader_focusable;
+			global::Xamarin.Essentials.Resource.Id.tag_transition_group = global::AdMobBuddyExample.Android.Resource.Id.tag_transition_group;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_event_manager = global::AdMobBuddyExample.Android.Resource.Id.tag_unhandled_key_event_manager;
+			global::Xamarin.Essentials.Resource.Id.tag_unhandled_key_listeners = global::AdMobBuddyExample.Android.Resource.Id.tag_unhandled_key_listeners;
+			global::Xamarin.Essentials.Resource.Id.text = global::AdMobBuddyExample.Android.Resource.Id.text;
+			global::Xamarin.Essentials.Resource.Id.text2 = global::AdMobBuddyExample.Android.Resource.Id.text2;
+			global::Xamarin.Essentials.Resource.Id.time = global::AdMobBuddyExample.Android.Resource.Id.time;
+			global::Xamarin.Essentials.Resource.Id.title = global::AdMobBuddyExample.Android.Resource.Id.title;
+			global::Xamarin.Essentials.Resource.Id.view_tree_lifecycle_owner = global::AdMobBuddyExample.Android.Resource.Id.view_tree_lifecycle_owner;
+			global::Xamarin.Essentials.Resource.Integer.status_bar_notification_info_maxnum = global::AdMobBuddyExample.Android.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_page = global::AdMobBuddyExample.Android.Resource.Layout.browser_actions_context_menu_page;
+			global::Xamarin.Essentials.Resource.Layout.browser_actions_context_menu_row = global::AdMobBuddyExample.Android.Resource.Layout.browser_actions_context_menu_row;
+			global::Xamarin.Essentials.Resource.Layout.custom_dialog = global::AdMobBuddyExample.Android.Resource.Layout.custom_dialog;
+			global::Xamarin.Essentials.Resource.Layout.notification_action = global::AdMobBuddyExample.Android.Resource.Layout.notification_action;
+			global::Xamarin.Essentials.Resource.Layout.notification_action_tombstone = global::AdMobBuddyExample.Android.Resource.Layout.notification_action_tombstone;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_custom_big = global::AdMobBuddyExample.Android.Resource.Layout.notification_template_custom_big;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_icon_group = global::AdMobBuddyExample.Android.Resource.Layout.notification_template_icon_group;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_chronometer = global::AdMobBuddyExample.Android.Resource.Layout.notification_template_part_chronometer;
+			global::Xamarin.Essentials.Resource.Layout.notification_template_part_time = global::AdMobBuddyExample.Android.Resource.Layout.notification_template_part_time;
+			global::Xamarin.Essentials.Resource.String.copy_toast_msg = global::AdMobBuddyExample.Android.Resource.String.copy_toast_msg;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_copy_link = global::AdMobBuddyExample.Android.Resource.String.fallback_menu_item_copy_link;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_open_in_browser = global::AdMobBuddyExample.Android.Resource.String.fallback_menu_item_open_in_browser;
+			global::Xamarin.Essentials.Resource.String.fallback_menu_item_share_link = global::AdMobBuddyExample.Android.Resource.String.fallback_menu_item_share_link;
+			global::Xamarin.Essentials.Resource.String.status_bar_notification_info_overflow = global::AdMobBuddyExample.Android.Resource.String.status_bar_notification_info_overflow;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification = global::AdMobBuddyExample.Android.Resource.Style.TextAppearance_Compat_Notification;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Info = global::AdMobBuddyExample.Android.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::AdMobBuddyExample.Android.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Time = global::AdMobBuddyExample.Android.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Xamarin.Essentials.Resource.Style.TextAppearance_Compat_Notification_Title = global::AdMobBuddyExample.Android.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionContainer = global::AdMobBuddyExample.Android.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Xamarin.Essentials.Resource.Style.Widget_Compat_NotificationActionText = global::AdMobBuddyExample.Android.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem = global::AdMobBuddyExample.Android.Resource.Styleable.ColorStateListItem;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_alpha = global::AdMobBuddyExample.Android.Resource.Styleable.ColorStateListItem_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_alpha = global::AdMobBuddyExample.Android.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Xamarin.Essentials.Resource.Styleable.ColorStateListItem_android_color = global::AdMobBuddyExample.Android.Resource.Styleable.ColorStateListItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_font = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_android_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontStyle = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_fontWeight = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_font = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_font;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontStyle = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_fontWeight = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamilyFont_ttcIndex = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderAuthority = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderCerts = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderPackage = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Xamarin.Essentials.Resource.Styleable.FontFamily_fontProviderQuery = global::AdMobBuddyExample.Android.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColorItem;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_color = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColorItem_android_color;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColorItem_android_offset = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColorItem_android_offset;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerColor = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_centerColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerX = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_centerX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_centerY = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_centerY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endColor = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_endColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endX = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_endX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_endY = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_endY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_gradientRadius = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startColor = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_startColor;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startX = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_startX;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_startY = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_startY;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_tileMode = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_tileMode;
+			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::AdMobBuddyExample.Android.Resource.Styleable.GradientColor_android_type;
+			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::AdMobBuddyExample.Android.Resource.Xml.image_share_filepaths;
+			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::AdMobBuddyExample.Android.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
 			global::XmlBuddy.Android.Resource.String.ApplicationName = global::AdMobBuddyExample.Android.Resource.String.ApplicationName;
 			global::XmlBuddy.Android.Resource.String.Hello = global::AdMobBuddyExample.Android.Resource.String.Hello;
 		}
@@ -445,19 +702,31 @@ namespace AdMobBuddyExample.Android
 			public const int androidx_core_secondary_text_default_material_light = 2131034113;
 			
 			// aapt resource value: 0x7F050002
-			public const int notification_action_color_filter = 2131034114;
+			public const int browser_actions_bg_grey = 2131034114;
 			
 			// aapt resource value: 0x7F050003
-			public const int notification_icon_bg_color = 2131034115;
+			public const int browser_actions_divider_color = 2131034115;
 			
 			// aapt resource value: 0x7F050004
-			public const int notification_material_background_media_default_color = 2131034116;
+			public const int browser_actions_text_color = 2131034116;
 			
 			// aapt resource value: 0x7F050005
-			public const int primary_text_default_material_dark = 2131034117;
+			public const int browser_actions_title_color = 2131034117;
 			
 			// aapt resource value: 0x7F050006
-			public const int secondary_text_default_material_dark = 2131034118;
+			public const int notification_action_color_filter = 2131034118;
+			
+			// aapt resource value: 0x7F050007
+			public const int notification_icon_bg_color = 2131034119;
+			
+			// aapt resource value: 0x7F050008
+			public const int notification_material_background_media_default_color = 2131034120;
+			
+			// aapt resource value: 0x7F050009
+			public const int primary_text_default_material_dark = 2131034121;
+			
+			// aapt resource value: 0x7F05000A
+			public const int secondary_text_default_material_dark = 2131034122;
 			
 			static Color()
 			{
@@ -473,73 +742,79 @@ namespace AdMobBuddyExample.Android
 		{
 			
 			// aapt resource value: 0x7F060000
-			public const int compat_button_inset_horizontal_material = 2131099648;
+			public const int browser_actions_context_menu_max_width = 2131099648;
 			
 			// aapt resource value: 0x7F060001
-			public const int compat_button_inset_vertical_material = 2131099649;
+			public const int browser_actions_context_menu_min_padding = 2131099649;
 			
 			// aapt resource value: 0x7F060002
-			public const int compat_button_padding_horizontal_material = 2131099650;
+			public const int compat_button_inset_horizontal_material = 2131099650;
 			
 			// aapt resource value: 0x7F060003
-			public const int compat_button_padding_vertical_material = 2131099651;
+			public const int compat_button_inset_vertical_material = 2131099651;
 			
 			// aapt resource value: 0x7F060004
-			public const int compat_control_corner_material = 2131099652;
+			public const int compat_button_padding_horizontal_material = 2131099652;
 			
 			// aapt resource value: 0x7F060005
-			public const int compat_notification_large_icon_max_height = 2131099653;
+			public const int compat_button_padding_vertical_material = 2131099653;
 			
 			// aapt resource value: 0x7F060006
-			public const int compat_notification_large_icon_max_width = 2131099654;
+			public const int compat_control_corner_material = 2131099654;
 			
 			// aapt resource value: 0x7F060007
-			public const int def_drawer_elevation = 2131099655;
+			public const int compat_notification_large_icon_max_height = 2131099655;
 			
 			// aapt resource value: 0x7F060008
-			public const int notification_action_icon_size = 2131099656;
+			public const int compat_notification_large_icon_max_width = 2131099656;
 			
 			// aapt resource value: 0x7F060009
-			public const int notification_action_text_size = 2131099657;
+			public const int def_drawer_elevation = 2131099657;
 			
 			// aapt resource value: 0x7F06000A
-			public const int notification_big_circle_margin = 2131099658;
+			public const int notification_action_icon_size = 2131099658;
 			
 			// aapt resource value: 0x7F06000B
-			public const int notification_content_margin_start = 2131099659;
+			public const int notification_action_text_size = 2131099659;
 			
 			// aapt resource value: 0x7F06000C
-			public const int notification_large_icon_height = 2131099660;
+			public const int notification_big_circle_margin = 2131099660;
 			
 			// aapt resource value: 0x7F06000D
-			public const int notification_large_icon_width = 2131099661;
+			public const int notification_content_margin_start = 2131099661;
 			
 			// aapt resource value: 0x7F06000E
-			public const int notification_main_column_padding_top = 2131099662;
+			public const int notification_large_icon_height = 2131099662;
 			
 			// aapt resource value: 0x7F06000F
-			public const int notification_media_narrow_margin = 2131099663;
+			public const int notification_large_icon_width = 2131099663;
 			
 			// aapt resource value: 0x7F060010
-			public const int notification_right_icon_size = 2131099664;
+			public const int notification_main_column_padding_top = 2131099664;
 			
 			// aapt resource value: 0x7F060011
-			public const int notification_right_side_padding_top = 2131099665;
+			public const int notification_media_narrow_margin = 2131099665;
 			
 			// aapt resource value: 0x7F060012
-			public const int notification_small_icon_background_padding = 2131099666;
+			public const int notification_right_icon_size = 2131099666;
 			
 			// aapt resource value: 0x7F060013
-			public const int notification_small_icon_size_as_large = 2131099667;
+			public const int notification_right_side_padding_top = 2131099667;
 			
 			// aapt resource value: 0x7F060014
-			public const int notification_subtext_size = 2131099668;
+			public const int notification_small_icon_background_padding = 2131099668;
 			
 			// aapt resource value: 0x7F060015
-			public const int notification_top_pad = 2131099669;
+			public const int notification_small_icon_size_as_large = 2131099669;
 			
 			// aapt resource value: 0x7F060016
-			public const int notification_top_pad_large_text = 2131099670;
+			public const int notification_subtext_size = 2131099670;
+			
+			// aapt resource value: 0x7F060017
+			public const int notification_top_pad = 2131099671;
+			
+			// aapt resource value: 0x7F060018
+			public const int notification_top_pad_large_text = 2131099672;
 			
 			static Dimension()
 			{
@@ -742,175 +1017,190 @@ namespace AdMobBuddyExample.Android
 			public const int bottom = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int cancel_action = 2131230764;
-			
-			// aapt resource value: 0x7F08002D
-			public const int center = 2131230765;
-			
-			// aapt resource value: 0x7F08002E
-			public const int center_horizontal = 2131230766;
+			public const int browser_actions_header_text = 2131230764;
 			
 			// aapt resource value: 0x7F08002F
-			public const int center_vertical = 2131230767;
+			public const int browser_actions_menu_items = 2131230767;
+			
+			// aapt resource value: 0x7F08002D
+			public const int browser_actions_menu_item_icon = 2131230765;
+			
+			// aapt resource value: 0x7F08002E
+			public const int browser_actions_menu_item_text = 2131230766;
 			
 			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int browser_actions_menu_view = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int cancel_action = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int center = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int dialog_button = 2131230771;
+			public const int center_horizontal = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int end = 2131230772;
+			public const int center_vertical = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int end_padder = 2131230773;
+			public const int chronometer = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int fill = 2131230774;
+			public const int clip_horizontal = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int fill_horizontal = 2131230775;
+			public const int clip_vertical = 2131230775;
 			
 			// aapt resource value: 0x7F080038
-			public const int fill_vertical = 2131230776;
+			public const int dialog_button = 2131230776;
 			
 			// aapt resource value: 0x7F080039
-			public const int forever = 2131230777;
+			public const int end = 2131230777;
 			
 			// aapt resource value: 0x7F08003A
-			public const int fragment_container_view_tag = 2131230778;
+			public const int end_padder = 2131230778;
 			
 			// aapt resource value: 0x7F08003B
-			public const int icon = 2131230779;
+			public const int fill = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int icon_group = 2131230780;
+			public const int fill_horizontal = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int info = 2131230781;
+			public const int fill_vertical = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int italic = 2131230782;
+			public const int forever = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int left = 2131230783;
+			public const int fragment_container_view_tag = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int line1 = 2131230784;
+			public const int icon = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int line3 = 2131230785;
+			public const int icon_group = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int media_actions = 2131230786;
+			public const int info = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int media_controller_compat_view_tag = 2131230787;
+			public const int italic = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int none = 2131230788;
+			public const int left = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int normal = 2131230789;
+			public const int line1 = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int notification_background = 2131230790;
+			public const int line3 = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int notification_main_column = 2131230791;
+			public const int media_actions = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int notification_main_column_container = 2131230792;
+			public const int media_controller_compat_view_tag = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int right = 2131230793;
+			public const int none = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int right_icon = 2131230794;
+			public const int normal = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int right_side = 2131230795;
+			public const int notification_background = 2131230795;
 			
 			// aapt resource value: 0x7F08004C
-			public const int special_effects_controller_view_tag = 2131230796;
+			public const int notification_main_column = 2131230796;
 			
 			// aapt resource value: 0x7F08004D
-			public const int start = 2131230797;
+			public const int notification_main_column_container = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int status_bar_latest_event_content = 2131230798;
+			public const int right = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int tag_accessibility_actions = 2131230799;
+			public const int right_icon = 2131230799;
 			
 			// aapt resource value: 0x7F080050
-			public const int tag_accessibility_clickable_spans = 2131230800;
+			public const int right_side = 2131230800;
 			
 			// aapt resource value: 0x7F080051
-			public const int tag_accessibility_heading = 2131230801;
+			public const int special_effects_controller_view_tag = 2131230801;
 			
 			// aapt resource value: 0x7F080052
-			public const int tag_accessibility_pane_title = 2131230802;
+			public const int start = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int tag_on_apply_window_listener = 2131230803;
+			public const int status_bar_latest_event_content = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int tag_on_receive_content_listener = 2131230804;
+			public const int tag_accessibility_actions = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int tag_on_receive_content_mime_types = 2131230805;
+			public const int tag_accessibility_clickable_spans = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int tag_screen_reader_focusable = 2131230806;
+			public const int tag_accessibility_heading = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int tag_state_description = 2131230807;
+			public const int tag_accessibility_pane_title = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int tag_transition_group = 2131230808;
+			public const int tag_on_apply_window_listener = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int tag_unhandled_key_event_manager = 2131230809;
+			public const int tag_on_receive_content_listener = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int tag_unhandled_key_listeners = 2131230810;
+			public const int tag_on_receive_content_mime_types = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int tag_window_insets_animation_callback = 2131230811;
+			public const int tag_screen_reader_focusable = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int text = 2131230812;
+			public const int tag_state_description = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int text2 = 2131230813;
+			public const int tag_transition_group = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int time = 2131230814;
+			public const int tag_unhandled_key_event_manager = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int title = 2131230815;
+			public const int tag_unhandled_key_listeners = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int top = 2131230816;
+			public const int tag_window_insets_animation_callback = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int view_tree_lifecycle_owner = 2131230817;
+			public const int text = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int view_tree_saved_state_registry_owner = 2131230818;
+			public const int text2 = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int view_tree_view_model_store_owner = 2131230819;
+			public const int time = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int visible_removing_fragment_view_tag = 2131230820;
+			public const int title = 2131230820;
+			
+			// aapt resource value: 0x7F080065
+			public const int top = 2131230821;
+			
+			// aapt resource value: 0x7F080066
+			public const int view_tree_lifecycle_owner = 2131230822;
+			
+			// aapt resource value: 0x7F080067
+			public const int view_tree_saved_state_registry_owner = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int view_tree_view_model_store_owner = 2131230824;
+			
+			// aapt resource value: 0x7F080069
+			public const int visible_removing_fragment_view_tag = 2131230825;
 			
 			static Id()
 			{
@@ -948,52 +1238,58 @@ namespace AdMobBuddyExample.Android
 		{
 			
 			// aapt resource value: 0x7F0A0000
-			public const int custom_dialog = 2131361792;
+			public const int browser_actions_context_menu_page = 2131361792;
 			
 			// aapt resource value: 0x7F0A0001
-			public const int notification_action = 2131361793;
+			public const int browser_actions_context_menu_row = 2131361793;
 			
 			// aapt resource value: 0x7F0A0002
-			public const int notification_action_tombstone = 2131361794;
+			public const int custom_dialog = 2131361794;
 			
 			// aapt resource value: 0x7F0A0003
-			public const int notification_media_action = 2131361795;
+			public const int notification_action = 2131361795;
 			
 			// aapt resource value: 0x7F0A0004
-			public const int notification_media_cancel_action = 2131361796;
+			public const int notification_action_tombstone = 2131361796;
 			
 			// aapt resource value: 0x7F0A0005
-			public const int notification_template_big_media = 2131361797;
+			public const int notification_media_action = 2131361797;
 			
 			// aapt resource value: 0x7F0A0006
-			public const int notification_template_big_media_custom = 2131361798;
+			public const int notification_media_cancel_action = 2131361798;
 			
 			// aapt resource value: 0x7F0A0007
-			public const int notification_template_big_media_narrow = 2131361799;
+			public const int notification_template_big_media = 2131361799;
 			
 			// aapt resource value: 0x7F0A0008
-			public const int notification_template_big_media_narrow_custom = 2131361800;
+			public const int notification_template_big_media_custom = 2131361800;
 			
 			// aapt resource value: 0x7F0A0009
-			public const int notification_template_custom_big = 2131361801;
+			public const int notification_template_big_media_narrow = 2131361801;
 			
 			// aapt resource value: 0x7F0A000A
-			public const int notification_template_icon_group = 2131361802;
+			public const int notification_template_big_media_narrow_custom = 2131361802;
 			
 			// aapt resource value: 0x7F0A000B
-			public const int notification_template_lines_media = 2131361803;
+			public const int notification_template_custom_big = 2131361803;
 			
 			// aapt resource value: 0x7F0A000C
-			public const int notification_template_media = 2131361804;
+			public const int notification_template_icon_group = 2131361804;
 			
 			// aapt resource value: 0x7F0A000D
-			public const int notification_template_media_custom = 2131361805;
+			public const int notification_template_lines_media = 2131361805;
 			
 			// aapt resource value: 0x7F0A000E
-			public const int notification_template_part_chronometer = 2131361806;
+			public const int notification_template_media = 2131361806;
 			
 			// aapt resource value: 0x7F0A000F
-			public const int notification_template_part_time = 2131361807;
+			public const int notification_template_media_custom = 2131361807;
+			
+			// aapt resource value: 0x7F0A0010
+			public const int notification_template_part_chronometer = 2131361808;
+			
+			// aapt resource value: 0x7F0A0011
+			public const int notification_template_part_time = 2131361809;
 			
 			static Layout()
 			{
@@ -1017,14 +1313,26 @@ namespace AdMobBuddyExample.Android
 			// aapt resource value: 0x7F0B0003
 			public const int common_google_play_services_unknown_issue = 2131427331;
 			
+			// aapt resource value: 0x7F0B0004
+			public const int copy_toast_msg = 2131427332;
+			
+			// aapt resource value: 0x7F0B0005
+			public const int fallback_menu_item_copy_link = 2131427333;
+			
+			// aapt resource value: 0x7F0B0006
+			public const int fallback_menu_item_open_in_browser = 2131427334;
+			
+			// aapt resource value: 0x7F0B0007
+			public const int fallback_menu_item_share_link = 2131427335;
+			
 			// aapt resource value: 0x7F0B0001
 			public const int Hello = 2131427329;
 			
-			// aapt resource value: 0x7F0B0004
-			public const int hello = 2131427332;
+			// aapt resource value: 0x7F0B0008
+			public const int hello = 2131427336;
 			
-			// aapt resource value: 0x7F0B0005
-			public const int status_bar_notification_info_overflow = 2131427333;
+			// aapt resource value: 0x7F0B0009
+			public const int status_bar_notification_info_overflow = 2131427337;
 			
 			static String()
 			{
@@ -1362,6 +1670,25 @@ namespace AdMobBuddyExample.Android
 			}
 			
 			private Styleable()
+			{
+			}
+		}
+		
+		public partial class Xml
+		{
+			
+			// aapt resource value: 0x7F0E0000
+			public const int image_share_filepaths = 2131623936;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int xamarin_essentials_fileprovider_file_paths = 2131623937;
+			
+			static Xml()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Xml()
 			{
 			}
 		}

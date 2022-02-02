@@ -2,11 +2,14 @@ using AdMobBuddy;
 using MenuBuddy;
 using Microsoft.Xna.Framework;
 using System.Threading.Tasks;
+using Xamarin.Essentials;
 
 namespace RevMobBuddyExample
 {
 	public class MainMenu : MenuStackScreen
 	{
+		bool reward = false;
+
 		public MainMenu() : base("AdMobBuddy Example")
 		{
 			CoverOtherScreens = true;
@@ -47,17 +50,22 @@ namespace RevMobBuddyExample
 			};
 		}
 
-		protected async void VideoReward(object obj, RewardedVideoEventArgs e)
+		protected void VideoReward(object obj, RewardedVideoEventArgs e)
 		{
 			var ads = ScreenManager.Game.Services.GetService<IAdManager>();
 			ads.OnVideoReward -= VideoReward;
-			
-			await ScreenManager.AddScreen(new OkScreen("You got a video reward!"));
+			reward = true;
 		}
 
 		public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
 		{
 			base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
+
+			if (reward)
+			{
+				reward = false;
+				ScreenManager.AddScreen(new OkScreen("You got a video reward!", Content));
+			}
 		}
 
 		public override void Draw(GameTime gameTime)

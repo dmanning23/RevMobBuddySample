@@ -21,7 +21,7 @@
     <AndroidSupportedAbis>armeabi-v7a%3bx86</AndroidSupportedAbis>
     <AndroidStoreUncompressedFileExtensions>.m4a</AndroidStoreUncompressedFileExtensions>
     <MandroidI18n />
-    <TargetFrameworkVersion>v10.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <MonoGamePlatform>Android</MonoGamePlatform>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <NuGetPackageImportStamp>
@@ -57,35 +57,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="AdMobBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\AdMobBuddy.1.0.37\lib\MonoAndroid10\AdMobBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\AdMobBuddy.1.0.39\lib\MonoAndroid10\AdMobBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Cyotek.Drawing.BitmapFont, Version=1.0.0.0, Culture=neutral, PublicKeyToken=58daa28b0b2de221, processorArchitecture=MSIL">
-      <HintPath>..\packages\Cyotek.Drawing.BitmapFont.2.0.2\lib\netstandard2.1\Cyotek.Drawing.BitmapFont.dll</HintPath>
+      <HintPath>..\packages\Cyotek.Drawing.BitmapFont.2.0.4\lib\netstandard2.1\Cyotek.Drawing.BitmapFont.dll</HintPath>
     </Reference>
     <Reference Include="FilenameBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FilenameBuddy.2.0.8\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\FilenameBuddy.2.0.13\lib\MonoAndroid10\FilenameBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="FontBuddyLib.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontBuddy.2.0.22\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
+      <HintPath>..\packages\FontBuddy.2.0.27\lib\MonoAndroid10\FontBuddyLib.Android.dll</HintPath>
     </Reference>
-    <Reference Include="FontStashSharp.MonoGame, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\FontStashSharp.MonoGame.1.0.3\lib\netstandard2.0\FontStashSharp.MonoGame.dll</HintPath>
+    <Reference Include="FontStashSharp.MonoGame, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontStashSharp.MonoGame.1.0.4\lib\netstandard2.0\FontStashSharp.MonoGame.dll</HintPath>
     </Reference>
     <Reference Include="GameTimer.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GameTimer.2.2.0\lib\MonoAndroid10\GameTimer.Android.dll</HintPath>
+      <HintPath>..\packages\GameTimer.2.3.0\lib\MonoAndroid10\GameTimer.Android.dll</HintPath>
     </Reference>
     <Reference Include="HadoukInput.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HadoukInput.2.0.33\lib\MonoAndroid10\HadoukInput.Android.dll</HintPath>
+      <HintPath>..\packages\HadoukInput.2.0.34\lib\MonoAndroid10\HadoukInput.Android.dll</HintPath>
     </Reference>
     <Reference Include="InputHelper.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\InputHelper.2.0.15\lib\MonoAndroid10\InputHelper.Android.dll</HintPath>
     </Reference>
     <Reference Include="Java.Interop" />
     <Reference Include="MatrixExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MatrixExtensions.2.0.0\lib\MonoAndroid10\MatrixExtensions.Android.dll</HintPath>
+      <HintPath>..\packages\MatrixExtensions.2.0.1\lib\MonoAndroid10\MatrixExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="MenuBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MenuBuddy.2.0.91\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\MenuBuddy.2.0.92\lib\MonoAndroid10\MenuBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Mono.Android" />
     <Reference Include="MonoGame.Framework, Version=3.7.1.189, Culture=neutral, processorArchitecture=MSIL">
@@ -96,13 +96,13 @@
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="PrimitiveBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\PrimitiveBuddy.2.0.1\lib\MonoAndroid10\PrimitiveBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\PrimitiveBuddy.2.0.4\lib\MonoAndroid10\PrimitiveBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="RandomExtensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RandomExtensions.dmanning23.2.0.1\lib\MonoAndroid10\RandomExtensions.Android.dll</HintPath>
+      <HintPath>..\packages\RandomExtensions.dmanning23.2.0.2\lib\MonoAndroid10\RandomExtensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="ResolutionBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ResolutionBuddy.2.0.5\lib\MonoAndroid10\ResolutionBuddy.Android.dll</HintPath>
+      <HintPath>..\packages\ResolutionBuddy.2.0.6\lib\MonoAndroid10\ResolutionBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="SpriteFontPlus, Version=0.7.0.22, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SpriteFontPlus.MonoGame.0.7.0.22\lib\netstandard2.0\SpriteFontPlus.dll</HintPath>
@@ -110,11 +110,11 @@
     <Reference Include="StateMachineBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\StateMachineBuddy.2.0.21\lib\MonoAndroid10\StateMachineBuddy.Android.dll</HintPath>
     </Reference>
-    <Reference Include="StbImageSharp, Version=2.22.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StbImageSharp.2.22.6\lib\netstandard2.0\StbImageSharp.dll</HintPath>
+    <Reference Include="StbImageSharp, Version=2.27.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StbImageSharp.2.27.8\lib\netstandard2.0\StbImageSharp.dll</HintPath>
     </Reference>
-    <Reference Include="StbTrueTypeSharp, Version=1.24.8.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\StbTrueTypeSharp.1.24.8\lib\netstandard2.0\StbTrueTypeSharp.dll</HintPath>
+    <Reference Include="StbTrueTypeSharp, Version=1.26.9.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\StbTrueTypeSharp.1.26.9\lib\netstandard2.0\StbTrueTypeSharp.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -128,7 +128,7 @@
       <HintPath>..\packages\TouchScreenBuddy.2.0.13\lib\MonoAndroid10\TouchScreenBuddy.Android.dll</HintPath>
     </Reference>
     <Reference Include="Vector2Extensions.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Vector2Extensions.2.0.2\lib\MonoAndroid10\Vector2Extensions.Android.dll</HintPath>
+      <HintPath>..\packages\Vector2Extensions.2.0.3\lib\MonoAndroid10\Vector2Extensions.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Android.Arch.Core.Common, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Android.Arch.Core.Common.1.1.1.3\lib\monoandroid90\Xamarin.Android.Arch.Core.Common.dll</HintPath>
@@ -235,6 +235,9 @@
     <Reference Include="Xamarin.AndroidX.AsyncLayoutInflater, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.AsyncLayoutInflater.1.0.0.8\lib\monoandroid90\Xamarin.AndroidX.AsyncLayoutInflater.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.AndroidX.Browser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.AndroidX.Browser.1.3.0.5\lib\monoandroid90\Xamarin.AndroidX.Browser.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.AndroidX.Collection, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Collection.1.1.0.8\lib\monoandroid90\Xamarin.AndroidX.Collection.dll</HintPath>
     </Reference>
@@ -340,29 +343,32 @@
     <Reference Include="Xamarin.AndroidX.Work.Runtime, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.AndroidX.Work.Runtime.2.5.0.3\lib\monoandroid90\Xamarin.AndroidX.Work.Runtime.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Essentials, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Essentials.1.7.1\lib\monoandroid10.0\Xamarin.Essentials.dll</HintPath>
+    </Reference>
     <Reference Include="Xamarin.Google.Guava.ListenableFuture, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Xamarin.Google.Guava.ListenableFuture.1.0.0.3\lib\monoandroid90\Xamarin.Google.Guava.ListenableFuture.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Google.UserMessagingPlatform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.Google.UserMessagingPlatform.1.0.0\lib\monoandroid90\Xamarin.Google.UserMessagingPlatform.dll</HintPath>
+      <HintPath>..\packages\Xamarin.Google.UserMessagingPlatform.1.0.0.2\lib\monoandroid90\Xamarin.Google.UserMessagingPlatform.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Ads.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Base.119.7.0\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Base.120.3.0.3\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Ads.Identifier, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1.3\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Ads.Lite, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Lite.119.7.0\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Ads.Lite.120.3.0.3\lib\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Basement, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.1\lib\monoandroid90\Xamarin.GooglePlayServices.Basement.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.4\lib\monoandroid90\Xamarin.GooglePlayServices.Basement.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Measurement.Base, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.0\lib\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.1.3\lib\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.GooglePlayServices.Measurement.Sdk.Api, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.0\lib\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.dll</HintPath>
+      <HintPath>..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.1.3\lib\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.dll</HintPath>
     </Reference>
     <Reference Include="XmlBuddy.Android, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\XmlBuddy.2.0.1\lib\MonoAndroid10\XmlBuddy.Android.dll</HintPath>
@@ -483,12 +489,13 @@
     <Error Condition="!Exists('..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.Google.Guava.ListenableFuture.1.0.0.3\build\monoandroid90\Xamarin.Google.Guava.ListenableFuture.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Google.Guava.ListenableFuture.1.0.0.3\build\monoandroid90\Xamarin.Google.Guava.ListenableFuture.targets'))" />
     <Error Condition="!Exists('..\packages\Xamarin.AndroidX.Work.Runtime.2.5.0.3\build\monoandroid90\Xamarin.AndroidX.Work.Runtime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.AndroidX.Work.Runtime.2.5.0.3\build\monoandroid90\Xamarin.AndroidX.Work.Runtime.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Basement.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Basement.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Base.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Lite.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Lite.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Lite.targets'))" />
-    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Base.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Base.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Base.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.4\build\monoandroid90\Xamarin.GooglePlayServices.Basement.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.4\build\monoandroid90\Xamarin.GooglePlayServices.Basement.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Base.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Base.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.GooglePlayServices.Ads.Lite.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.AndroidX.Browser.1.3.0.5\build\monoandroid9.0\Xamarin.AndroidX.Browser.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.AndroidX.Browser.1.3.0.5\build\monoandroid9.0\Xamarin.AndroidX.Browser.targets'))" />
   </Target>
   <Import Project="..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.3\build\netstandard2.0\NETStandard.Library.targets')" />
   <Import Project="..\packages\Xamarin.Android.Support.Annotations.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Annotations.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Annotations.28.0.0.3\build\monoandroid90\Xamarin.Android.Support.Annotations.targets')" />
@@ -564,12 +571,13 @@
   <Import Project="..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.targets" Condition="Exists('..\packages\Xamarin.Build.Download.0.10.0\build\Xamarin.Build.Download.targets')" />
   <Import Project="..\packages\Xamarin.Google.Guava.ListenableFuture.1.0.0.3\build\monoandroid90\Xamarin.Google.Guava.ListenableFuture.targets" Condition="Exists('..\packages\Xamarin.Google.Guava.ListenableFuture.1.0.0.3\build\monoandroid90\Xamarin.Google.Guava.ListenableFuture.targets')" />
   <Import Project="..\packages\Xamarin.AndroidX.Work.Runtime.2.5.0.3\build\monoandroid90\Xamarin.AndroidX.Work.Runtime.targets" Condition="Exists('..\packages\Xamarin.AndroidX.Work.Runtime.2.5.0.3\build\monoandroid90\Xamarin.AndroidX.Work.Runtime.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Basement.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Base.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Lite.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Lite.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Lite.targets')" />
-  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Base.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Base.119.7.0\build\MonoAndroid90\Xamarin.GooglePlayServices.Ads.Base.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.4\build\monoandroid90\Xamarin.GooglePlayServices.Basement.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Basement.117.6.0.4\build\monoandroid90\Xamarin.GooglePlayServices.Basement.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Base.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Base.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Base.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Identifier.117.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Identifier.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Base.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Base.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Measurement.Sdk.Api.119.0.1.3\build\monoandroid90\Xamarin.GooglePlayServices.Measurement.Sdk.Api.targets')" />
+  <Import Project="..\packages\Xamarin.GooglePlayServices.Ads.Lite.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.targets" Condition="Exists('..\packages\Xamarin.GooglePlayServices.Ads.Lite.120.3.0.3\build\monoandroid90\Xamarin.GooglePlayServices.Ads.Lite.targets')" />
+  <Import Project="..\packages\Xamarin.AndroidX.Browser.1.3.0.5\build\monoandroid9.0\Xamarin.AndroidX.Browser.targets" Condition="Exists('..\packages\Xamarin.AndroidX.Browser.1.3.0.5\build\monoandroid9.0\Xamarin.AndroidX.Browser.targets')" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">

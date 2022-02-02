@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29509.3
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "AdMobBuddyExample.SharedProject", "AdMobBuddyExample.SharedProject\AdMobBuddyExample.SharedProject.shproj", "{3519C5CC-78C3-4697-ABED-36ED967E9DE0}"
 EndProject

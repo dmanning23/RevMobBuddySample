@@ -30,6 +30,13 @@ namespace RevMobBuddyExample
 			base.InitStyles();
 		}
 
+		protected override void LoadContent()
+		{
+			base.LoadContent();
+
+			ScreenManager.ClearColor = Color.Red;
+		}
+
 		public override IScreen[] GetMainMenuScreenStack()
 		{
 			return new IScreen[] { new MainMenu() };

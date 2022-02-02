@@ -11,10 +11,8 @@ namespace RevMobBuddyExample.Android
 		, MainLauncher = true
 		, Icon = "@drawable/icon"
 		, Theme = "@style/Theme.Splash"
-		, AlwaysRetainTaskState = true
-		, LaunchMode = LaunchMode.SingleInstance
 		, ScreenOrientation = ScreenOrientation.SensorPortrait
-		, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden | ConfigChanges.ScreenSize)]
+		, ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.Keyboard | ConfigChanges.KeyboardHidden)]
 	public class Activity1 : Microsoft.Xna.Framework.AndroidGameActivity
 	{
 		protected override void OnCreate(Bundle bundle)
@@ -24,7 +22,6 @@ namespace RevMobBuddyExample.Android
 			SetContentView((View)g.Services.GetService(typeof(View)));
 
 			g.Services.AddService<IAdManager>(new AdMobAdapter(this, 
-				"ca-app-pub-8228485892439970~1803261097", //app id
 				"ca-app-pub-3940256099942544/6300978111", //banner ad id
 				"ca-app-pub-3940256099942544/1033173712", //interstitial ad id
 				"ca-app-pub-3940256099942544/5224354917", //rewarded video ad id
@@ -49,7 +46,7 @@ namespace RevMobBuddyExample.Android
 		/// </summary>
 		private void HideNavBars()
 		{
-			Window.DecorView.SystemUiVisibility = (StatusBarVisibility)(SystemUiFlags.LayoutStable | SystemUiFlags.LayoutHideNavigation | SystemUiFlags.LayoutFullscreen | SystemUiFlags.HideNavigation | SystemUiFlags.Fullscreen | SystemUiFlags.ImmersiveSticky);
+			//Window.DecorView.SystemUiVisibility = (StatusBarVisibility)(SystemUiFlags.LayoutStable | SystemUiFlags.LayoutHideNavigation | SystemUiFlags.LayoutFullscreen | SystemUiFlags.HideNavigation | SystemUiFlags.Fullscreen | SystemUiFlags.ImmersiveSticky);
 		}
 	}
 }

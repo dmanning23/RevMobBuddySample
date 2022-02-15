@@ -1,8 +1,6 @@
-RevMobBuddySample
+AdMobBuddySample
 ===============
 
-Sample MonoGame project showing how to use the AdMobBuddy nuget package to display banner, intersitial, and rewarded video:
+This project is no longer maintained and is now located at:
 
-https://github.com/dmanning23/AdMobBuddy
-
-(Ignore that it says RevMob, they are no longer serving ads, so this example was switched over to AdMob)
+https://github.com/dmanning23/AdMobBuddy/Sample

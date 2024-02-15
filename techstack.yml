@@ -1,0 +1,20 @@
+repo_name: dmanning23/RevMobBuddySample
+report_id: e42d00c70a336a75c6dc749071b488bf
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-15T14:41:35+00:00'
+requested_by: dmanning23
+provider: github
+branch: master
+detected_tools_count: 1
+tools:
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/dmanning23/RevMobBuddySample
+  detection_source: Repo Metadata
